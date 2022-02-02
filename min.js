@@ -8,7 +8,7 @@ const min = function(numbers) {
   // If the item's value is higher then just continue
   // If the item's value is lower then replace the variable with that item
 
-  // Comparable problem = 
+  // Comparable problem =
   // Kata 14 Change Calculator - https://flex-web.compass.lighthouselabs.ca/d5226362-f1e6-458c-a107-6d363a589ef6
   // Codecademy Workspace - https://www.codecademy.com/workspaces/61d888ede8251449417c2405
 
