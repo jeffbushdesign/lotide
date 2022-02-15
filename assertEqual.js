@@ -1,4 +1,6 @@
-const assertEqual = function(actual, expected) {
+// assertEqual.js
+
+const assertEqual = function (actual, expected) {
   if (actual === expected) {
     // Not using template literals
     // console.log("🟢 Assertion Passed: " + actual + " === " + expected);
@@ -14,8 +16,4 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("Jeff", "Jeff");
-assertEqual(1, 17);
+module.exports = assertEqual;
