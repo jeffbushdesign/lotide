@@ -11,7 +11,7 @@ const countLetters = (string) => {
     } else {
       result[char]++;
     }
-    
+
   }
   console.log(result);
   // return result;
@@ -19,5 +19,8 @@ const countLetters = (string) => {
 
 
 countLetters('I went to school today.');
+
+module.exports = countLetters;
+
 
 

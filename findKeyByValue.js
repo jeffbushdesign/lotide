@@ -1,4 +1,4 @@
-const assertEqual = function(actual, expected) {
+const assertEqual = function (actual, expected) {
   if (actual === expected) {
     // Not using template literals
     // console.log("🟢 Assertion Passed: " + actual + " === " + expected);
@@ -28,7 +28,7 @@ const assertEqual = function(actual, expected) {
 const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
+  drama: "The Wire"
 };
 
 const findKeyByValue = (object, value) => {
@@ -48,3 +48,5 @@ console.log(result1);
 // Consider using for...of to loop over the keys returned by Object.keys.
 
 // Implement the function findKeyByValue which takes in an object and a value. It should scan the object and return the first key which contains the given value. If no key with that given value is found, then it should return undefined.
+
+module.exports = findKeyByValue;

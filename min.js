@@ -1,4 +1,4 @@
-const min = function(numbers) {
+const min = function (numbers) {
   // Write code here that returns the smallest value in numbers
 
   // Jeff
@@ -14,7 +14,7 @@ const min = function(numbers) {
 
   // smallest variable starts as being equal to the 1st item in the array
   let smallest = numbers[0];
-  
+
   // loop through the array starting at the beginning
   for (let i = 0; i < numbers.length; i++) {
     // check if the current array item is smaller than our variable smallest
@@ -23,7 +23,7 @@ const min = function(numbers) {
     } else {
       continue; // if the current item is NOT smaller then just continue
     }
-      
+
   }
   return smallest; // return the value of smallest
 };
@@ -45,3 +45,5 @@ console.log(`The shortest book out of a list of single book with 232 pages has $
 
 const temperatures = [45, 10, -20, 0, 3, -20];
 console.log(`The coldest temperature amongst 45C, 10C, -20C, 0C, 3C and -20C is ${min(temperatures)}C`);
+
+module.exports = min;

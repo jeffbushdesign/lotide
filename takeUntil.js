@@ -1,5 +1,5 @@
 // Define the function
-const eqArrays = function(array1, array2) {
+const eqArrays = function (array1, array2) {
   // Are both arrays the same length?
   if (array1.length !== array2.length) {
     // console.log("false");
@@ -10,12 +10,12 @@ const eqArrays = function(array1, array2) {
       // Are their values equal?
       if (array1[i] !== array2[i]) {
         return false;
-      } 
+      }
     }
     // If none of the conditions are proved false then return true
     return true;
-  } 
-}
+  }
+};
 
 
 const assertArraysEqual = (array1, array2) => {
@@ -24,7 +24,7 @@ const assertArraysEqual = (array1, array2) => {
   } else {
     console.log(`🔴 Assertion Failed: ${array1} !== ${array2}`);
   }
-}
+};
 
 // assertArraysEqual([2, 5], [2, 5]);
 /*
@@ -46,7 +46,7 @@ console.log(results2);
 [ 'I\'ve', 'been', 'to', 'Hollywood' ]
 * */
 
-const takeUntil = function(array, callback) {
+const takeUntil = function (array, callback) {
   const results = [];
   for (let item of array) {
     if (callback(item)) {
@@ -75,6 +75,7 @@ assertArraysEqual(takeUntil(data2, x => x === ','), ["I've", "been", "to", "Holl
 
 
 // -----------------------------------------------
+module.exports = takeUntil;
 
 
 

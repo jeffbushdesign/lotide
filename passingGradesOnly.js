@@ -5,6 +5,8 @@
 // });
 // console.log("Subset of even numbers:", evens);
 
+const { passingGradesOnly } = require(".");
+
 // This node script should print out passing grades to the console. 
 // Passing grades for this scenario can be those that are 70 or above.
 
@@ -12,9 +14,13 @@
 // ANONYMOUS FUNCTION
 const grades = [73, 69, 3, 100, 50, 70, 69, 88, 95, 77, 35];
 
-const pass = grades.filter(function(num) {
+const pass = grades.filter(function (num) {
   return (num >= 70);
 
 });
+
 console.log(`The following are passing grades:\n${pass}`);
+
+module.exports = passingGradesOnly;
+
 

@@ -1,6 +1,6 @@
 // ASSERT ARRAY EQUALS
 // Define the function
-const eqArrays = function(array1, array2) {
+const eqArrays = function (array1, array2) {
   // Are both arrays the same length?
   if (array1.length !== array2.length) {
     // console.log("false");
@@ -11,12 +11,12 @@ const eqArrays = function(array1, array2) {
       // Are their values equal?
       if (array1[i] !== array2[i]) {
         return false;
-      } 
+      }
     }
     // If none of the conditions are proved false then return true
     return true;
-  } 
-}
+  }
+};
 
 
 const assertArraysEqual = (array1, array2) => {
@@ -25,14 +25,14 @@ const assertArraysEqual = (array1, array2) => {
   } else {
     console.log(`🔴 Assertion Failed: ${array1} !== ${array2}`);
   }
-}
+};
 
 // assertArraysEqual([2, 5], [2, 5]);
 
 // ASSERT ARRAYS EQUAL
 
 const words = ["ground", "control", "to", "major", "tom"];
-const map = function(array, callback) {
+const map = function (array, callback) {
   // console.log('array: ', array);
   // console.log('callback:` ', callback);
   const results = [];
@@ -44,7 +44,7 @@ const map = function(array, callback) {
   }
   return results;
 
-}
+};
 const results1 = map(words, word => word[0]);
 console.log(results1);
 
@@ -80,3 +80,5 @@ const charLength = lighthouses.map(function(item) {
 console.log(charLength);
 
 */
+
+module.exports = map;

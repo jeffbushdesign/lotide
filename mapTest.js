@@ -1,3 +1,5 @@
+const { mapTest } = require(".");
+
 const lighthouses = ["Gibraltar Point", "Peggy's Point", "Cove Island", "Discovery Island", "Cape Scott", "Point Clark", "Kincardine"];
 
 // write code here to use map
@@ -8,12 +10,16 @@ const lighthouses = ["Gibraltar Point", "Peggy's Point", "Cove Island", "Discove
 
 // Start with the code below:
 
-const charLength = lighthouses.map(function(item) {
+const mapTest = lighthouses.map(function (item) {
   return item.length;
 });
 
-console.log(charLength);
+console.log(mapTest);
 
 // var names = animals.map(function(animal) {
 //   return animal.name
 //   })
+
+module.exports = mapTest;
+
+

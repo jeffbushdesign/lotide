@@ -1,6 +1,6 @@
 
 
-const assertEqual = function(actual, expected) {
+const assertEqual = function (actual, expected) {
   if (actual === expected) {
     // Not using template literals
     // console.log("🟢 Assertion Passed: " + actual + " === " + expected);
@@ -31,7 +31,7 @@ const assertEqual = function(actual, expected) {
 const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
+  drama: "The Wire"
 };
 
 const findKeyByValue = (object, value) => {
@@ -59,11 +59,11 @@ const findKeyByValue = (object, value) => {
 
 const data1 = {
   "Blue Hill": { stars: 1 },
-  "Akaleri":   { stars: 3 },
-  "noma":      { stars: 2 },
-  "elBulli":   { stars: 3 },
-  "Ora":       { stars: 2 },
-  "Akelarre":  { stars: 3 }
+  "Akaleri": { stars: 3 },
+  "noma": { stars: 2 },
+  "elBulli": { stars: 3 },
+  "Ora": { stars: 2 },
+  "Akelarre": { stars: 3 }
 };
 
 const findKey = (object, callback) => {
@@ -77,7 +77,7 @@ const findKey = (object, callback) => {
     }
   }
   // return 'abc';
-}
+};
 
 // return Object.keys(object).find(key => object[key] === value);
 
@@ -87,4 +87,7 @@ console.log(results1);
 assertEqual(results1, 'Blue Hill');
 
 // Implement the function findKey which takes in an object and a callback. It should scan the object and return the first key for which the callback returns a truthy value. If no key is found, then it should return undefined.
+
+module.exports = findKey;
+
 
