@@ -10,7 +10,7 @@ const assertEqual = require('./assertEqual');
 
 // Define the function
 const tail = function (array) {
-  console.log(array.slice(1));
+  return array.slice(1);
 };
 
 // let tail function be accessible to other files
