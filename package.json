@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@jeffbushdesign/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Jeff's version of Lodash. A modular collection of functions that operate on data, mainly Arrays and Objects.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/jeffbushdesign/lotide.git"
   },
-  "author": "",
+  "author": "Jeff Bush",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jeffbushdesign/lotide/issues"
