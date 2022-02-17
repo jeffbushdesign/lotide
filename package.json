@@ -1,5 +1,5 @@
 {
-  "name": "@jeffbushdesign/lotide",
+  "name": "@jeffbushdesign/lotide2",
   "version": "1.0.0",
   "description": "Jeff's version of Lodash. A modular collection of functions that operate on data, mainly Arrays and Objects.",
   "main": "index.js",
